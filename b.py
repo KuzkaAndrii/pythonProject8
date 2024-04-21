@@ -9,5 +9,5 @@ def b(n):
     return
 if __name__=="__main__":
     n=int(input("n: "))
-    for i in b(n, x):
+    for i in b(n):
         print(i)

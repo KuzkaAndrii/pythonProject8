@@ -1,9 +1,10 @@
 def a(n, x):
     aa=x
-    i=1
+    i=2
+    yield aa
     while n>=i:
+        aa=aa*x*(i-1)/i
         yield aa
-        aa=aa*x*(n-1)/n
         i+=1
     return
 if __name__=="__main__":
